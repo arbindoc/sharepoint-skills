@@ -23,3 +23,40 @@ Skills follow the [agentskills.io specification](https://agentskills.io/specific
 2. In your SharePoint site, open the **Agent Assets** library
 3. Navigate into the **Skills** folder (auto-created)
 4. Upload the skill folder — the agent discovers it by the `name` field in `SKILL.md`
+
+## Creating a Skill
+
+A skill is a folder containing a single `SKILL.md` file. The folder name must match the `name` field in the frontmatter exactly.
+
+**Where it goes in this repo:** `Skills/<skill-name>/SKILL.md`
+
+**Where it goes in SharePoint:** `Skills/<skill-name>/SKILL.md` (upload the skill folder directly)
+
+**Minimal example — `Skills/summarize-page/SKILL.md`:**
+
+```markdown
+---
+name: summarize-page
+description: Summarizes a SharePoint page in 3 bullet points.
+  Use when the user asks for a quick summary of a page.
+---
+
+# Summarize Page
+
+## Instructions
+
+1. Read the full content of the specified page.
+2. Identify the 3 most important points.
+3. Return a bulleted summary, each bullet no longer than one sentence.
+```
+
+That's a complete, valid skill. The frontmatter tells the agent when to activate it; the body tells it what to do.
+
+## Contributing a Skill
+
+Skills work best when they are:
+- **Focused** — one capability per file
+- **Self-contained** — no external dependencies required to use it
+- **Documented** — frontmatter with `name` and `description` so agents can self-select the skill
+
+To contribute, create a feature branch, add your skill folder to the `Skills/` directory following the naming conventions above, and submit a pull request with a description of what the skill does.
