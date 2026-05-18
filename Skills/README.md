@@ -6,7 +6,7 @@ Some skills also include a `demo/` subfolder containing sample content you can u
 
 ## Quick links
 
-- **Browse skills:** [Libraries](#libraries) · [Operations](#operations) · [Styling](#styling)
+- **Browse skills:** [Libraries](#libraries) · [Operations](#operations) · [Styling](#styling) · [Writing](#writing)
 - **Install:** [Installing a Skill](#installing-a-skill)
 - **Contribute:** [✅ Pre-submission checklist](#pre-submission-checklist) · [Creating a Skill](#creating-a-skill) · [Categories](#categories) · [Required files](#required-files) · [File templates](#file-templates)
 
@@ -44,6 +44,12 @@ The styling category contains one engine (`list-styling`) and a set of style tok
 | [style-pastel/](./styling/style-pastel/) | Style: Pastel | Soft candy colors with light tinted badge backgrounds and dark text — friendly and approachable. Triggers: *pastel, soft colors, candy, light badges, friendly style, approachable.* |
 | [style-retro/](./styling/style-retro/) | Style: Retro Memphis | Hot pink, electric blue, yellow, and teal with colored borders — bold, playful, nostalgic. Triggers: *retro, memphis, 80s, 90s, colorful, playful, bright colors.* |
 | [style-terminal/](./styling/style-terminal/) | Style: Terminal | Dark badges with neon green accents and matrix-style progress bars. Triggers: *terminal, hacker, dark mode, matrix, developer style, green on black.* |
+
+## Writing
+
+| Folder | Skill | Description |
+|---|---|---|
+| [review-council/](./writing/review-council/) | Review Council | Convenes a panel of seven expert AI personas to review any document, idea, proposal, or plan. Each persona reviews independently, then responds to the others by name. Delivers a structured verdict with rating, top issues, top strengths, concrete fixes, and a minority report. Works on .docx, .xlsx, .pptx, .pdf, pasted text, or a verbal idea. |
 
 ---
 
