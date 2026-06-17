@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-content-finder",
+    "source": "pnp",
+    "title": "RFP Response - Content Finder",
+    "shortDescription": "Searches the firm's SharePoint content libraries to find existing material matching each row in the RFP Tracker, then writes availability summaries and clickable source links back to the tracker for human review and Phase 3 drafting.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-content-finder",
+    "longDescription": [
+      "The RFP Response - Content Finder skill classifies each RFP Tracker row as administrative or substantive, routes substantive rows to the most relevant content libraries, scores and ranks document matches, and writes results back to the tracker.",
+      "The Source hyperlink columns it populates are the input the Content Generation skill uses in Phase 3 \u2014 it follows these links to read the full source documents before drafting each proposal section."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-content-finder/assets/preview.png",
+        "alt": "RFP Response - Content Finder skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

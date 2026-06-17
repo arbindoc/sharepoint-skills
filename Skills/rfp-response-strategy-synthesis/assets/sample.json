@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-strategy-synthesis",
+    "source": "pnp",
+    "title": "RFP Response - Strategy Synthesis",
+    "shortDescription": "Synthesizes past proposals, a win strategy brief, capability statements, a win/loss debrief, and RFP evaluation criteria into a recommended Table of Contents, competitive positioning recommendation, page budget, and Content Strategy Brief.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-strategy-synthesis",
+    "longDescription": [
+      "The RFP Response - Strategy Synthesis skill reads the populated RFP Tracker alongside salesperson-provided win strategy context and the firm's capability material, then synthesizes a complete strategic blueprint for the proposal.",
+      "The deliverable is a Word document saved to the deal's WIP Collaboration Folder containing the Coverage Map, Submission Checklist, recommended ToC, Page Budget Table, and the full Content Strategy Brief. Nothing in Phase 3 should be drafted without an approved output from this skill."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-strategy-synthesis/assets/preview.png",
+        "alt": "RFP Response - Strategy Synthesis skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

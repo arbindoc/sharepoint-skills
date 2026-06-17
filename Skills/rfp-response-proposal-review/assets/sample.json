@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-proposal-review",
+    "source": "pnp",
+    "title": "RFP Response - Proposal Review",
+    "shortDescription": "Audits the generated proposal draft across three dimensions \u2014 strategy fidelity, RFP coverage, and content sourcing \u2014 and produces a Review Report Word document before any human reviewer opens the draft.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-proposal-review",
+    "longDescription": [
+      "The RFP Response - Proposal Review skill catches three categories of silent failure in AI-generated drafts: drift from the approved strategy, missed RFP requirements, and content not grounded in the firm's source material.",
+      "It runs automatically after Phase 3 and before the human review gate, producing a structured Review Report that makes the human review session efficient rather than exploratory."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-proposal-review/assets/preview.png",
+        "alt": "RFP Response - Proposal Review skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-quality-tone-review",
+    "source": "pnp",
+    "title": "RFP Response - Quality & Tone Review",
+    "shortDescription": "Reviews a proposal draft for voice consistency, narrative coherence, and weak language against the firm's configurable voice standards \u2014 flagging structural problems, missing differentiators, and line-level language patterns before final submission.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-quality-tone-review",
+    "longDescription": [
+      "The RFP Response - Quality & Tone Review skill is a structured editorial review calibrated to the firm's configurable voice standards, the approved strategy, and the buyer's evaluation audience. It ships with illustrative voice standards for an advisory firm \u2014 replace with your firm's actual standards before use.",
+      "This skill runs last in Phase 4, after Compliance Review findings have been addressed. High findings indicate structural problems requiring section-level rewrites, not line edits."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-quality-tone-review/assets/preview.png",
+        "alt": "RFP Response - Quality & Tone Review skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

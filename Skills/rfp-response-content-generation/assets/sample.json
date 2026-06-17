@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-content-generation",
+    "source": "pnp",
+    "title": "RFP Response - Content Generation",
+    "shortDescription": "Drafts a complete proposal Word document section by section using the approved Strategy Brief as its blueprint, grounding every section in source documents before writing and inserting structured placeholders rather than inventing content where gaps exist.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-content-generation",
+    "longDescription": [
+      "The RFP Response - Content Generation skill works section by section through the approved Table of Contents, reading the full source documents before writing any section. It tracks every mandatory RFP requirement in a per-section register and ensures each is explicitly answered in the prose.",
+      "Where source material does not exist, it inserts a structured, descriptive placeholder rather than fabricating content. The output is a complete Word document ready for Phase 4 review."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-content-generation/assets/preview.png",
+        "alt": "RFP Response - Content Generation skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

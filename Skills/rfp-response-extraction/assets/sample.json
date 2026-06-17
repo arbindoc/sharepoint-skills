@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-extraction",
+    "source": "pnp",
+    "title": "RFP Response - Extraction",
+    "shortDescription": "Parses an RFP document stored in SharePoint and populates a structured tracking list with every question, mandatory requirement, submission rule, evaluation criterion, and administrative certification \u2014 categorized, source-traced, and ready for owner assignment.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-extraction",
+    "longDescription": [
+      "The RFP Response - Extraction skill reads an incoming RFP document \u2014 including multi-document packages with addenda, statements of work, and Q&A attachments \u2014 and extracts every actionable item into a structured SharePoint List.",
+      "This is the first step in the RFP Response flow. Its output feeds directly into the Content Finder skill, which searches the firm's content libraries for matching material against each tracker row."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-extraction/assets/preview.png",
+        "alt": "RFP Response - Extraction skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-rfp-response-compliance-review",
+    "source": "pnp",
+    "title": "RFP Response - Compliance Review",
+    "shortDescription": "Checks a proposal draft against the firm's configurable compliance rules \u2014 prohibited language, required disclosures, role and positioning boundaries, and procurement submission requirements \u2014 logging all findings and blocking publication until High severity issues are resolved.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/rfp-response-compliance-review",
+    "longDescription": [
+      "The RFP Response - Compliance Review skill is a configurable, rule-based compliance check that runs after the salesperson has reviewed the draft. It ships with illustrative example rules for an advisory firm \u2014 these must be replaced with the firm's actual rules before use.",
+      "High severity findings are publication blockers. A salesperson who believes a High finding is incorrect must escalate to an authorized approver \u2014 the skill will not downgrade a finding without human sign-off."
+    ],
+    "creationDateTime": "2026-06-16",
+    "updateDateTime": "2026-06-16",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Proposal Automation"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/rfp-response-compliance-review/assets/preview.png",
+        "alt": "RFP Response - Compliance Review skill in action"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "mattwolodarsky-droid",
+        "pictureUrl": "https://github.com/mattwolodarsky-droid.png",
+        "name": "Matt Wolodarsky"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]
