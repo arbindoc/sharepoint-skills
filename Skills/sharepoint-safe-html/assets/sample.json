@@ -1,0 +1,52 @@
+[
+  {
+    "name": "pnp-sharepoint-skills-sharepoint-safe-html",
+    "source": "pnp",
+    "title": "SharePoint Safe HTML",
+    "shortDescription": "Creates HTML artifacts that render reliably in SharePoint, OneDrive, Teams, File Viewer, and embedded iframe preview surfaces.",
+    "url": "https://github.com/pnp/sharepoint-skills/tree/main/Skills/sharepoint-safe-html",
+    "longDescription": [
+      "Creates a SharePoint-safe HTML file for SharePoint and OneDrive preview surfaces. The skill enforces inline CSS, semantic accessible markup, responsive iframe-friendly layouts, and privacy-safe escaping of untrusted content.",
+      "Use it for HTML reports, dashboards, decks, one-pagers, and visual artifacts that must run without external CSS, JavaScript, images, fonts, APIs, CDNs, local file paths, secrets, or runtime network calls. When the user needs auto-updating data, the skill allows the supported SharePoint/OneDrive exception of up to 10 live-linked CSV or XLSX files in the same folder as the HTML artifact, with defensive schema validation and empty/error states so changed data files do not crash the render. Live-linked reports must be live-only: no embedded backup rows, fallback datasets, cached snapshots, sample rows, or stale hardcoded business data. The skill also requires a deterministic render pipeline, explicit empty/error states, and source checks for unresolved placeholders or leaked JavaScript values."
+    ],
+    "creationDateTime": "2026-06-28",
+    "updateDateTime": "2026-06-28",
+    "products": [
+      "SharePoint",
+      "Microsoft 365 Copilot"
+    ],
+    "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SharePoint-AI-Skill"
+      },
+      {
+        "key": "SKILL-CATEGORY",
+        "value": "Reporting"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/sharepoint-skills/raw/main/Skills/sharepoint-safe-html/assets/preview.png",
+        "alt": "SharePoint Safe HTML skill preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "zrosenfield",
+        "pictureUrl": "https://github.com/zrosenfield.png",
+        "name": "Zach Rosenfield",
+        "company": "Microsoft"
+      }
+    ],
+    "references": [
+      {
+        "name": "agentskills.io specification",
+        "description": "The specification that SharePoint AI skills follow for installation and discovery.",
+        "url": "https://agentskills.io/specification"
+      }
+    ]
+  }
+]
