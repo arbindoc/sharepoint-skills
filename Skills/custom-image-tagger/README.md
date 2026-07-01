@@ -5,7 +5,7 @@ A simple Copilot-in-SharePoint Skill that analyzes a selected images, extracts p
 ![preview](./assets/preview.png)
 
 ## What this repo contains
-- **Skill definition:** [Skill.md](custom-image-tagger/Skill.md) — the skill manifest and instructions used by Copilot in SharePoint.
+- **Skill definition:** [Skill.md](custom-image-tagger/SKILL.md) — the skill manifest and instructions used by Copilot in SharePoint.
 - **Demo script:** [Demo Script](demo/readme.md) — step-by-step demo prompts and the SharePoint demo link.
 - **Article / background:** [Blogpost on Substack](https://www.thebecomingfrontier.com/p/your-image-library-is-full-of-information?r=2buxes) — long-form writeup and rationale.
 - **Sample images:** [Sample Images](demo/sample-files/)
@@ -40,15 +40,17 @@ Follow the steps in [Demo Script](demo/readme.md) to try the skill in the ShareP
 
 | Solution | Author(s) |
 | --- | --- |
-| custom-image-tagger | Arbindo Chattopadhyay (Microsoft) &#124; [LinkedIn](https://www.linkedin.com/in/arbindoc)  |
+| custom-image-tagger | Arbindo Chattopadhyay (Microsoft) &#124; [GitHub](https://github.com/arbindoc) &#124; [LinkedIn](https://www.linkedin.com/in/arbindoc/) |
 
 ## Version history
 
 | Version | Date | Comments |
 | --- | --- | --- |
-| 1.0 | Jun 2026 | Initial Release |
+| 1.0 | Jul 2026 | Initial Release |
 
 ## Disclaimer
 
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://m365-visitor-stats.azurewebsites.net/sharepoint-skills/skills/file-classifier" />
 
